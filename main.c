@@ -253,7 +253,7 @@ void TSP(pGraph graph, int k, int *currNodes)
     }
 
     free(tempPath);
-    printf("TSP shortest path: %d\n", minDist);
+    printf("TSP shortest path: %d \n", minDist);
 
     freeTSP(arr, graph->numNodes);
 }

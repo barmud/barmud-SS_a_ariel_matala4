@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
             getc(stdin); // skip the space
             int dest = getc(stdin) - '0';
             int shortestPath = dijkstra(graph, src, dest);
-            printf("Dijsktra shortest path: %d\n", shortestPath);
+            printf("Dijsktra shortest path: %d \n", shortestPath);
         }
 
         if (*func == 'T')
